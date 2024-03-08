@@ -12,7 +12,7 @@ pipeline {
             steps {
                 script {
                     build 'PES1UG21CS447-1'
-                    sh 'g++ testing.cpp -o output'
+                    sh 'g++ working.cpp -o output'
                 }
             }
         }
